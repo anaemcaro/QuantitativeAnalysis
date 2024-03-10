@@ -58,7 +58,7 @@ These questions could lead to a more in depth understanding of the market and he
 
 ## Descripción
 En este proyecto voy a hacer un análisis cuantitativo básico de los tres principales índices del mercado: Dow Jones, S&P500 y Nasdaq; con el fin de compararlos y responder la pregunta:
-* **¿Los tres indices principales se comportan de la misma forma, incluso cuando representan diferentes sectores del mismo?**
+* **¿Los tres indices principales se comportan de la misma forma, incluso cuando representan diferentes sectores del mercado?**
 
 Estos tres índices son calculados con diferentes metodologías. El resultado de este análisis puede producir un mejor entendimiento del mercado de los E.U., y la respuesta a esta pregunta puede ayudar a cualquier persona a decidir dónde inventir sus ahorros y cómo balancear la inversión de ese dinero para obtener un mejor rendimiento de mediano a largo plazo.
 
@@ -80,7 +80,7 @@ La estructura aquí es bastante sencilla:
 * Cuaderno: [Quantitative_Analysis_ipynb](https://github.com/anaemcaro/QuantitativeAnalysis/blob/main/Quantitative_Analysis_1.ipynb) donde realicé el análisis como tal.
 
 ## Resultados
-La respuesta a la pregunta **¿Los tres indices principales se comportan de la misma forma, incluso cuando representan diferentes sectores del mismo?**  es **SI**:
+La respuesta a la pregunta **¿Los tres indices principales se comportan de la misma forma, incluso cuando representan diferentes sectores del mercado?**  es **SI**:
 
 Los índices Dow Jones, S&P500 and Nasdaq tienen una fuerte correlación y son similares en términos de volatilidad, rendimiento, riesgo y tendencias. Por lo tanto, cualquiera de ellos es una buena representación del mercado durante el período de 2 años estudiado.
 
