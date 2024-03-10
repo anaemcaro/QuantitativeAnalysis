@@ -2,17 +2,17 @@
 
 ![Github Header](https://github.com/anaemcaro/QuantitativeAnalysis/assets/162106147/45f5881d-c4be-4e2e-8585-9fccb39bd06b)
 
-[En Español, por favor.](https://github.com/anaemcaro/QuantitativeAnalysis/edit/main/README.md#an%C3%A1lisis-cuantitativo)
+[En Español, por favor.](https://github.com/anaemcaro/QuantitativeAnalysis?tab=readme-ov-file#an%C3%A1lisis-cuantitativo)
 ### Basic Quantitative Analysis of Market Indexes
 
 ## Overview
 In this project I am going to make a basic quantitative analysis of the three principal market indexes: Dow Jones, S&P500 and Nasdaq; in order to compare them and answer the research question:
-* Do the three principal indexes behave the same way, even though they are a representation of different sectors of the market?
-These three indexes are also calculated with different methodologies. The result of this analysis can lead to a better understanding of the U.S. stock market and answering to this can help a normal person to decide where to invest their savings and how to balance the investment of that money to obtain a better revenue in the mid- to long-term.
+* **Do the three principal indexes behave the same way, even though they are a representation of different sectors of the market?**
+
+These three indexes are also calculated with different methodologies. The result of this analysis can lead to a better understanding of the U.S. stock market and answering to this question can help a normal person to decide where to invest their savings and how to balance the investment of that money to obtain a better revenue in the mid- to long-term.
 
 ## Setup
-
-The code used Python using Google Colaboratory, but the notebook can be downloaded and read with Jupyter.
+The code used was Python on Google Colaboratory, but the notebook can be downloaded and read with Jupyter.
 
 ### Packages
 * yfinance for collecting the data
@@ -20,23 +20,23 @@ The code used Python using Google Colaboratory, but the notebook can be download
 * plotly for data visualization
 
 ## Data
-The data used was this dataset [link], I collected using yfinance API and then  preprocessed to obtain a simplified dataset with the Daily Closing Price for each of the three indexes during a 2-year period.
+The data used was this [dataset](https://github.com/anaemcaro/QuantitativeAnalysis/blob/main/index_data.csv), I collected using yfinance API and then  preprocessed to obtain a simplified dataset with the Daily Closing Price for each of the three indexes during a 2-year period.
 
 ## Structure
 The structure here is pretty straightforward:
-Notebook: Data yfinance for collecting and preprocessing the data
-Data indexes.csv
-Notebook Quantitative Analysis where the analysis i performed
+* Notebook: [Data_yfinance.ipynb](https://github.com/anaemcaro/QuantitativeAnalysis/blob/main/Data_yfinance.ipynb) for collecting and preprocessing the data
+* Data [indexes_data.csv](https://github.com/anaemcaro/QuantitativeAnalysis/blob/main/index_data.csv)
+* Notebook [Quantitative_Analysis_ipynb](https://github.com/anaemcaro/QuantitativeAnalysis/blob/main/Quantitative_Analysis_1.ipynb) where the analysis was carried out 
 
 ## Results
-The answer to the research question **Do the three principal indexes behave the same way, even though they are a representation of different sectors of the market?**  is yes:
+The answer to the research question **Do the three principal indexes behave the same way, even though they are a representation of different sectors of the market?**  is **YES**:
 
 The Dow Jones, S&P500 and Nasdaq indexes have a strong Correlation and are similar in terms of Volatility, Performance, Risk and Trends. So, any of them showed a good picture of the market during the 2-year period.
 
 ## Reflection
 Here, I have chosen to perform a Basic Quantitative Analysis of the three most representative indexes in the stock market. It turned out that the three of them have very similar characteristics. I think this happens because the indexes, each one in its particular area, reflect the market in general.
 
-That raises other questions:
+That raises other questions to me:
 
 What could be the impact on the economy if the indexes didn’t behave in a similar way? What event could cause such a behavior?
 
@@ -58,7 +58,7 @@ These questions could lead to a more in depth understanding of the market and he
 
 ## Descripción
 En este proyecto voy a hacer un análisis cuantitativo básico de los tres principales índices del mercado: Dow Jones, S&P500 y Nasdaq; con el fin de compararlos y responder la pregunta:
-* ¿Los tres indices principales se comportan de la misma forma, incluso cuando representan diferentes sectores del mismo?
+* **¿Los tres indices principales se comportan de la misma forma, incluso cuando representan diferentes sectores del mismo?**
 
 Estos tres índices son calculados con diferentes metodologías. El resultado de este análisis puede producir un mejor entendimiento del mercado de los E.U., y la respuesta a esta pregunta puede ayudar a cualquier persona a decidir dónde inventir sus ahorros y cómo balancear la inversión de ese dinero para obtener un mejor rendimiento de mediano a largo plazo.
 
@@ -71,13 +71,13 @@ El lenguaje usado fue Python en un cuaderno Google Colaboratory, el cual puede s
 * plotly para la visualización de la data
 
 ## Data
-Se utilizó este [dataset](link), el cual creé usando la API yfinance y luego lo preprocesé para obtener un dataset simplificado con los Precios de Cierre Diarios para cada uno de los índices durante un período de 2 años.
+Se utilizó este [dataset](https://github.com/anaemcaro/QuantitativeAnalysis/blob/main/index_data.csv), el cual creé usando la API yfinance y luego lo preprocesé para obtener un dataset simplificado con los Precios de Cierre Diarios para cada uno de los índices durante un período de 2 años.
 
 ## Estructura
 La estructura aquí es bastante sencilla:
-Cuaderno: [Data yfinance](link) para recolectar y preprocesar la data
-Dataset: [indexes_data.csv](link)
-Cuaderno: [Quantitative Analysis](link) donde realicé el análisis como tal.
+* Cuaderno: [Data_yfinance.ipynb](https://github.com/anaemcaro/QuantitativeAnalysis/blob/main/Data_yfinance.ipynb) para recolectar y preprocesar la data
+* Dataset: [indexes_data.csv](https://github.com/anaemcaro/QuantitativeAnalysis/blob/main/index_data.csv)
+* Cuaderno: [Quantitative_Analysis_ipynb](https://github.com/anaemcaro/QuantitativeAnalysis/blob/main/Quantitative_Analysis_1.ipynb) donde realicé el análisis como tal.
 
 ## Resultados
 La respuesta a la pregunta **¿Los tres indices principales se comportan de la misma forma, incluso cuando representan diferentes sectores del mismo?**  es **SI**:
